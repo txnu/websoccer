@@ -12,11 +12,11 @@
     </thead>
     <tbody>
         <tr *ngFor="let currentRow of Standings">
-            <td>{{ currrentRow.TeamName }}</td>
-            <td>{{ currrentRow.GamesPlayed }}</td>
-            <td>{{ currrentRow.Wins*3 + currentRow.Ties}}</td>
-            <td>{{ currrentRow.GoalsFor }}</td>
-            <td>{{ currrentRow.GoalsAgaints }}</td>
+            <td>{{ currentRow.TeamName }}</td>
+            <td>{{ currentRow.GamesPlayed }}</td>
+            <td>{{ currentRow.Wins*3 + currentRow.Ties}}</td>
+            <td>{{ currentRow.GoalsFor }}</td>
+            <td>{{ currentRow.GoalAgaints }}</td>
         </tr>
     </tbody>
 </table>
