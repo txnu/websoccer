@@ -1,10 +1,8 @@
-import { StringMap } from "@angular/compiler/src/compiler_facade_interface";
-
-export interface Ranking {
-    TeamName: string,
-    GamesPlayed: number,
-    wins : number,
+export interface Rangking {
+    TeamName : string,
+    GamesPlayed:number,
+    Wins : number,
     Ties : number,
     GoalsFor : number,
-    GoalAgaints : number
-}
+    GoalAgaints : number,
+} 
